@@ -1,0 +1,189 @@
+{
+  "Header": {
+    "title": "Momunity",
+    "paragraph": "Find mothers in your area, network with like-minded people for exchange, playdates & more, ask other mothers for advice and share your own experiences & recommendations."
+  },
+  "About": {
+    "paragraph": "At our core, we believe in the power of innovative housing solutions to foster sustainable and desirable living conditions. Our approach centers around the concept of co-living, recognizing that coming closer together and sharing resources is essential to addressing the environmental, urban, and human challenges we face today. Co-living is more than just a trend; it’s a vital part of the solution for a better future.",
+    "Why": [
+      "Embrace sustainable living with our innovative co-living solutions.",
+      "Enjoy gourmet meal preparation tailored to your tastes and dietary needs.",
+      "Benefit from professional legal services to safeguard your rights.",
+      "Receive expert homework assistance to help students excel."
+    ],
+    "Why2": [
+      "Keep your home spotless with our comprehensive cleaning services.",
+      "Participate in engaging art and sports classes to enrich your life.",
+      "Ensure safe and reliable school transportation for peace of mind.",
+      "Strengthen family bonds with our professional family therapy services."
+    ] 
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Legal Services",
+      "text": "Professional legal assistance to ensure your rights and obligations are well-managed."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Homework Assistance",
+      "text": "Support for students to help them excel academically."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Meal Preparation",
+      "text": "Support for students to help them excel academically."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Apartment Cleaning",
+      "text": "Keep your living space spotless and comfortable with our cleaning services."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Art Classes",
+      "text": "Explore your creativity with engaging and inspiring art sessions."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "School Transportation",
+      "text": "Safe and reliable transportation for school-goers."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Living in this co-living community has been amazing! The meal preparation and cleaning services save me so much time, and the supportive community makes me feel truly connected. The activities like art and sports classes are a great bonus. Highly recommend!.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Living in this co-living community has been amazing! The meal preparation and cleaning services save me so much time, and the supportive community makes me feel truly connected. The activities like art and sports classes are a great bonus. Highly recommend!.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Living in this co-living community has been amazing! The meal preparation and cleaning services save me so much time, and the supportive community makes me feel truly connected. The activities like art and sports classes are a great bonus. Highly recommend!.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Living in this co-living community has been amazing! The meal preparation and cleaning services save me so much time, and the supportive community makes me feel truly connected. The activities like art and sports classes are a great bonus. Highly recommend!.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Living in this co-living community has been amazing! The meal preparation and cleaning services save me so much time, and the supportive community makes me feel truly connected. The activities like art and sports classes are a great bonus. Highly recommend!.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Living in this co-living community has been amazing! The meal preparation and cleaning services save me so much time, and the supportive community makes me feel truly connected. The activities like art and sports classes are a great bonus. Highly recommend!.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "100 garvies Point rd Glen Cove, NY 11542 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@momunitycoliving.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com",
+    "linkedin": "linkedin.com",
+    "instagram": "instagram.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Social Events",
+      "text": "Connect and celebrate with vibrant social events tailored for every occasion."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Food",
+      "text": "Savor gourmet delights crafted to satisfy every palate."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Co-living",
+      "text": "Experience modern co-living spaces designed for comfort and community."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Cunsultancing",
+      "text": "Receive expert consulting services to elevate your personal and professional growth."
+    }
+  ],
+  "Survey":{
+    "text": "Fill Survey"
+  }
+}
