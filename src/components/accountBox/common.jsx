@@ -65,6 +65,7 @@ export const SubmitButton = styled.button`
   background: linear-gradient(
     58deg, #38ba9b, 20%, #3cbb9d 100%
   );
+  align-self: center; 
 
   &:hover {
     filter: brightness(1.03);

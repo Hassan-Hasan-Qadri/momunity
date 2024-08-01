@@ -905,3 +905,7 @@ background: white;
 .logo-second-half{
   color: #38ba9b;
 }
+
+.reginer-form-error{
+  color: red;
+}
