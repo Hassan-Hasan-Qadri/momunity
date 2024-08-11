@@ -639,7 +639,7 @@ label {
   transition: all 0.5s linear;
   border: 0;
   transition: transform 0.3s ease, background-color 0.3s ease;
-  width:50%;
+  width: fit-content;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -671,6 +671,13 @@ background: white;
     align-items: center;
   }
 
+ .form-button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 627px;
+
+  }
 #resources-header .resources-intro-text{
   display: flex;
   padding-top: 124px;
@@ -908,4 +915,100 @@ background: white;
 
 .reginer-form-error{
   color: red;
+}
+
+.post-container{
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  padding: 3%;
+
+}
+
+.post-manager-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.align-post-info{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.user-detail{   
+  width: 160px;
+  font-size: medium;
+  display: flex;
+  align-items: center;
+}
+
+.reply-numbers{
+  padding-top: 28px;
+  padding-left: 25px;
+}
+
+.reply-container{
+  box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.175) !important;
+  width: 95%;
+  margin-left: 5%;
+  padding: 1%;
+}
+
+.reply-info{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-container-border{
+  font-size: 15px;
+    border: 2px solid #b9b7b7;
+    border-radius: 20px;
+    padding: 10px 10px 10px 23px;
+}
+
+.reply-username{
+  margin-left: 5px;
+}
+.reply-text-box{
+  width: 100%;
+  min-height: 66px;
+  resize: none;
+  padding: 10px;
+}
+.reply-form{
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+.reply-send-button{
+  width: 20px;
+}
+
+.reply-send-button-container{
+  border: 2px solid #717171;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.ff-widget-control{
+  width:100%
+}
+
+.main-area{
+  margin-top: 50px;
+}
+
+.ff-watermark{
+  display: none;
 }

@@ -1,15 +1,42 @@
-import React from "react";
-export const Survey = (props) => {
+import React, { useEffect, useState } from 'react';
+import './modalstyle.css';
+
+const SurveyPopUp = (props) => {
+  const [isChecked, setIsChecked] = useState(false);
+
+  useEffect(() => {
+    let formfilled = localStorage.getItem('form-filled');
+    if(!formfilled){
+        setTimeout(() => {
+            setIsChecked(true);
+          }, 2000);
+    }
+  }, []);
+
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+  };
+
+  const handleClose = () => {
+    setIsChecked(false);
+  };
+
   return (
-    <div id="survey">
-      {console.log(props.data)}
-      <div className="container">
-        <div className="text-container">
-          {props.data
-              ?  <h2>{props.data.text}</h2>
-              : "Loading..."}
-        </div>
-        <div className="form-button-container">
+    <div>
+      <input
+        className="modal-btn"
+        type="checkbox"
+        id="modal-btn"
+        name="modal-btn"
+        checked={isChecked}
+        onChange={handleCheckboxChange}
+      />
+      <div className="modal">
+        <div className="modal-wrap">
+          <button className="close-btn" onClick={handleClose}>
+            &times;
+          </button>
+          <div className="modal-button-container">
           {
             props?.data?.forms?.map((dataItem,index)=>{
               return <a href={"/form/"+index} target="_blank" className="survey-form-btn">
@@ -26,9 +53,10 @@ export const Survey = (props) => {
             })
           }
         </div>
-        
-        
+        </div>
       </div>
     </div>
   );
 };
+
+export default SurveyPopUp;

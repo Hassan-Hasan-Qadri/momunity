@@ -9,6 +9,7 @@ import { Team } from "../components/home/Team";
 import { Survey } from "../components/home/survey";
 import { Contact } from "../components/home/contact";
 import SmoothScroll from "smooth-scroll";
+import SurveyPopUp from "../components/popupmodal/surveyModal";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -19,6 +20,7 @@ const Home = (props) => {
   return (
     <div>
       <Navigation />
+      <SurveyPopUp data={props.data.Survey}/>
       <Header data={props.data.Header} />
       <Survey data={props.data.Survey}/>
       <Features data={props.data.Features} />

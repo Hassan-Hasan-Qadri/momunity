@@ -184,6 +184,15 @@
     }
   ],
   "Survey":{
-    "text": "Fill Survey"
-  }
+    "text":"Surveys",
+    "forms":[
+    {
+      "text": "Survey Employees",
+      "url": "https://formfacade.com/include/103595192325091053521/form/1FAIpQLSdiMfcLVcqfiAVCzBXjQgMQgZ745VPAQgdLVhbbjfidAuLX0w/classic.js/?div=ff-compose"
+    },
+    {
+      "text": "Survey Executives",
+      "url": "https://formfacade.com/include/103595192325091053521/form/1FAIpQLSekfMTyyzRrnnK1YrojALXsGoMiKl0iKMOVvDa-j-7A3JmJwA/classic.js/?div=ff-compose"
+    }
+]}
 }
